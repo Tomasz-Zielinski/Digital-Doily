@@ -9,7 +9,7 @@ Then run compiled java bytecode using
 ```sh
 java Main
 ```
-# Requirements
+## Requirements
  - Java 9
 ## Features
  - Toggle sector lines
