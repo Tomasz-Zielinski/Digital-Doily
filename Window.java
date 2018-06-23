@@ -9,13 +9,11 @@ class Window extends JFrame {
 	Window() {
 
 		// Make window fullscreen
-		setUndecorated(true);
-		setExtendedState(JFrame.MAXIMIZED_BOTH);
+		getContentPane().setPreferredSize(new Dimension(1200,700));
 		setVisible(true);
-		setTitle("Digital Doilies");
 
-		width = getWidth();
-		height = getHeight();
+		width = 1200;
+		height = 700;
 
 		// Add main panel with BorderLayout that will contain every element
 		JPanel panel = new JPanel();
@@ -23,7 +21,7 @@ class Window extends JFrame {
 
 		// Add canvas to the main panel
 		Canvas canvas = new Canvas();
-		canvas.setPreferredSize(new Dimension(width/5*4, height/6*5));
+		canvas.setPreferredSize(new Dimension(width/4*3, height/10*9));
 		panel.add(canvas, BorderLayout.CENTER);
 
 		// Create gallery so we can pass it in Buttons constructor and add functionality
@@ -35,7 +33,7 @@ class Window extends JFrame {
 
 		// Add panel for buttons
 		JPanel button_panel = new JPanel();
-		button_panel.setPreferredSize(new Dimension(width, height/6));
+		button_panel.setPreferredSize(new Dimension(width, height/10));
 		button_panel.setLayout(new BoxLayout(button_panel, BoxLayout.PAGE_AXIS));
 		panel.add(button_panel, BorderLayout.SOUTH);
 
