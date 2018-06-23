@@ -51,7 +51,6 @@ class Buttons extends JPanel {
 
 		// Add label to the button
 		JLabel sectors_text = new JLabel("Sectors");
-		sectors_text.setBorder(new EmptyBorder(20,20,20,20));
 		sectors_text.setForeground(Color.WHITE);
 		sectors_text.setHorizontalAlignment(JTextField.CENTER);
 		sectors_text.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 16));
@@ -139,7 +138,6 @@ class Buttons extends JPanel {
 
 		// Add a label to the left of the button
 		JLabel pen_size_text = new JLabel("Pen Size");
-		pen_size_text.setBorder(new EmptyBorder(20, 20, 20, 20));
 		pen_size_text.setForeground(Color.WHITE);
 		pen_size_text.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 16));
 		pen_size_text.setHorizontalAlignment(JTextField.CENTER);
