@@ -1,4 +1,4 @@
-# Digital-Doily :pencil2:
+# Digital-Doily 🎨
 >Application which replicates lines as you are drawing to generate cool pieces of art. Create mirror images looking like real rangoli, mandala, or spirograph. Design your own unique snowflake. 
 ## How to run
 Open folder where all the files are and compile class files by typing
